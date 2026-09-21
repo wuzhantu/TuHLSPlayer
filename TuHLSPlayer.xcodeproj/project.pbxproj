@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		437712D030617889000B7152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 437712CF30617889000B7152 /* AppDelegate.m */; };
+		437712D330617889000B7152 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 437712D230617889000B7152 /* SceneDelegate.m */; };
+		437712D630617889000B7152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437712D530617889000B7152 /* ViewController.m */; };
+		437712D930617889000B7152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437712D730617889000B7152 /* Main.storyboard */; };
+		437712DB3061788C000B7152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437712DA3061788C000B7152 /* Assets.xcassets */; };
+		437712DE3061788C000B7152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437712DC3061788C000B7152 /* LaunchScreen.storyboard */; };
+		437712E13061788C000B7152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 437712E03061788C000B7152 /* main.m */; };
+		437712EB3061788C000B7152 /* TuHLSPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 437712EA3061788C000B7152 /* TuHLSPlayerTests.m */; };
+		437712F53061788C000B7152 /* TuHLSPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 437712F43061788C000B7152 /* TuHLSPlayerUITests.m */; };
+		437712F73061788C000B7152 /* TuHLSPlayerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 437712F63061788C000B7152 /* TuHLSPlayerUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		437712E73061788C000B7152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437712C330617889000B7152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 437712CA30617889000B7152;
+			remoteInfo = TuHLSPlayer;
+		};
+		437712F13061788C000B7152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437712C330617889000B7152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 437712CA30617889000B7152;
+			remoteInfo = TuHLSPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		437712CB30617889000B7152 /* TuHLSPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuHLSPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		437712CE30617889000B7152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		437712CF30617889000B7152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		437712D130617889000B7152 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		437712D230617889000B7152 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		437712D430617889000B7152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		437712D530617889000B7152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		437712D830617889000B7152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		437712DA3061788C000B7152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		437712DD3061788C000B7152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		437712DF3061788C000B7152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437712E03061788C000B7152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		437712E63061788C000B7152 /* TuHLSPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuHLSPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		437712EA3061788C000B7152 /* TuHLSPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuHLSPlayerTests.m; sourceTree = "<group>"; };
+		437712F03061788C000B7152 /* TuHLSPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuHLSPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		437712F43061788C000B7152 /* TuHLSPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuHLSPlayerUITests.m; sourceTree = "<group>"; };
+		437712F63061788C000B7152 /* TuHLSPlayerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuHLSPlayerUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		437712C830617889000B7152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437712E33061788C000B7152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437712ED3061788C000B7152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		437712C230617889000B7152 = {
+			isa = PBXGroup;
+			children = (
+				437712CD30617889000B7152 /* TuHLSPlayer */,
+				437712E93061788C000B7152 /* TuHLSPlayerTests */,
+				437712F33061788C000B7152 /* TuHLSPlayerUITests */,
+				437712CC30617889000B7152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		437712CC30617889000B7152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				437712CB30617889000B7152 /* TuHLSPlayer.app */,
+				437712E63061788C000B7152 /* TuHLSPlayerTests.xctest */,
+				437712F03061788C000B7152 /* TuHLSPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		437712CD30617889000B7152 /* TuHLSPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				437712CE30617889000B7152 /* AppDelegate.h */,
+				437712CF30617889000B7152 /* AppDelegate.m */,
+				437712D130617889000B7152 /* SceneDelegate.h */,
+				437712D230617889000B7152 /* SceneDelegate.m */,
+				437712D430617889000B7152 /* ViewController.h */,
+				437712D530617889000B7152 /* ViewController.m */,
+				437712D730617889000B7152 /* Main.storyboard */,
+				437712DA3061788C000B7152 /* Assets.xcassets */,
+				437712DC3061788C000B7152 /* LaunchScreen.storyboard */,
+				437712DF3061788C000B7152 /* Info.plist */,
+				437712E03061788C000B7152 /* main.m */,
+			);
+			path = TuHLSPlayer;
+			sourceTree = "<group>";
+		};
+		437712E93061788C000B7152 /* TuHLSPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				437712EA3061788C000B7152 /* TuHLSPlayerTests.m */,
+			);
+			path = TuHLSPlayerTests;
+			sourceTree = "<group>";
+		};
+		437712F33061788C000B7152 /* TuHLSPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				437712F43061788C000B7152 /* TuHLSPlayerUITests.m */,
+				437712F63061788C000B7152 /* TuHLSPlayerUITestsLaunchTests.m */,
+			);
+			path = TuHLSPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		437712CA30617889000B7152 /* TuHLSPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437712FA3061788C000B7152 /* Build configuration list for PBXNativeTarget "TuHLSPlayer" */;
+			buildPhases = (
+				437712C730617889000B7152 /* Sources */,
+				437712C830617889000B7152 /* Frameworks */,
+				437712C930617889000B7152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuHLSPlayer;
+			productName = TuHLSPlayer;
+			productReference = 437712CB30617889000B7152 /* TuHLSPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		437712E53061788C000B7152 /* TuHLSPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437712FD3061788C000B7152 /* Build configuration list for PBXNativeTarget "TuHLSPlayerTests" */;
+			buildPhases = (
+				437712E23061788C000B7152 /* Sources */,
+				437712E33061788C000B7152 /* Frameworks */,
+				437712E43061788C000B7152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437712E83061788C000B7152 /* PBXTargetDependency */,
+			);
+			name = TuHLSPlayerTests;
+			productName = TuHLSPlayerTests;
+			productReference = 437712E63061788C000B7152 /* TuHLSPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		437712EF3061788C000B7152 /* TuHLSPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437713003061788C000B7152 /* Build configuration list for PBXNativeTarget "TuHLSPlayerUITests" */;
+			buildPhases = (
+				437712EC3061788C000B7152 /* Sources */,
+				437712ED3061788C000B7152 /* Frameworks */,
+				437712EE3061788C000B7152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437712F23061788C000B7152 /* PBXTargetDependency */,
+			);
+			name = TuHLSPlayerUITests;
+			productName = TuHLSPlayerUITests;
+			productReference = 437712F03061788C000B7152 /* TuHLSPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		437712C330617889000B7152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					437712CA30617889000B7152 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					437712E53061788C000B7152 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 437712CA30617889000B7152;
+					};
+					437712EF3061788C000B7152 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 437712CA30617889000B7152;
+					};
+				};
+			};
+			buildConfigurationList = 437712C630617889000B7152 /* Build configuration list for PBXProject "TuHLSPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 437712C230617889000B7152;
+			productRefGroup = 437712CC30617889000B7152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				437712CA30617889000B7152 /* TuHLSPlayer */,
+				437712E53061788C000B7152 /* TuHLSPlayerTests */,
+				437712EF3061788C000B7152 /* TuHLSPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		437712C930617889000B7152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437712DE3061788C000B7152 /* LaunchScreen.storyboard in Resources */,
+				437712DB3061788C000B7152 /* Assets.xcassets in Resources */,
+				437712D930617889000B7152 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437712E43061788C000B7152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437712EE3061788C000B7152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		437712C730617889000B7152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437712D630617889000B7152 /* ViewController.m in Sources */,
+				437712D030617889000B7152 /* AppDelegate.m in Sources */,
+				437712E13061788C000B7152 /* main.m in Sources */,
+				437712D330617889000B7152 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437712E23061788C000B7152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437712EB3061788C000B7152 /* TuHLSPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437712EC3061788C000B7152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437712F73061788C000B7152 /* TuHLSPlayerUITestsLaunchTests.m in Sources */,
+				437712F53061788C000B7152 /* TuHLSPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		437712E83061788C000B7152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 437712CA30617889000B7152 /* TuHLSPlayer */;
+			targetProxy = 437712E73061788C000B7152 /* PBXContainerItemProxy */;
+		};
+		437712F23061788C000B7152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 437712CA30617889000B7152 /* TuHLSPlayer */;
+			targetProxy = 437712F13061788C000B7152 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		437712D730617889000B7152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				437712D830617889000B7152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		437712DC3061788C000B7152 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				437712DD3061788C000B7152 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		437712F83061788C000B7152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		437712F93061788C000B7152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		437712FB3061788C000B7152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ5DH477MC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TuHLSPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuzhantu.PianPangCaiZi.TuHLSPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		437712FC3061788C000B7152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ5DH477MC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TuHLSPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuzhantu.PianPangCaiZi.TuHLSPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		437712FE3061788C000B7152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ5DH477MC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuzhantu.PianPangCaiZi.TuHLSPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuHLSPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TuHLSPlayer";
+			};
+			name = Debug;
+		};
+		437712FF3061788C000B7152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ5DH477MC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuzhantu.PianPangCaiZi.TuHLSPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuHLSPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TuHLSPlayer";
+			};
+			name = Release;
+		};
+		437713013061788C000B7152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ5DH477MC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuzhantu.PianPangCaiZi.TuHLSPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TuHLSPlayer;
+			};
+			name = Debug;
+		};
+		437713023061788C000B7152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ5DH477MC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuzhantu.PianPangCaiZi.TuHLSPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TuHLSPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		437712C630617889000B7152 /* Build configuration list for PBXProject "TuHLSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437712F83061788C000B7152 /* Debug */,
+				437712F93061788C000B7152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437712FA3061788C000B7152 /* Build configuration list for PBXNativeTarget "TuHLSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437712FB3061788C000B7152 /* Debug */,
+				437712FC3061788C000B7152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437712FD3061788C000B7152 /* Build configuration list for PBXNativeTarget "TuHLSPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437712FE3061788C000B7152 /* Debug */,
+				437712FF3061788C000B7152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437713003061788C000B7152 /* Build configuration list for PBXNativeTarget "TuHLSPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437713013061788C000B7152 /* Debug */,
+				437713023061788C000B7152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 437712C330617889000B7152 /* Project object */;
+}
