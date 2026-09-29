@@ -17,6 +17,7 @@
 		437712EB3061788C000B7152 /* TuHLSPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 437712EA3061788C000B7152 /* TuHLSPlayerTests.m */; };
 		437712F53061788C000B7152 /* TuHLSPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 437712F43061788C000B7152 /* TuHLSPlayerUITests.m */; };
 		437712F73061788C000B7152 /* TuHLSPlayerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 437712F63061788C000B7152 /* TuHLSPlayerUITestsLaunchTests.m */; };
+		43771304306C01FE000B7152 /* fileSequence5.ts in Resources */ = {isa = PBXBuildFile; fileRef = 43771303306C01FE000B7152 /* fileSequence5.ts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		437712F03061788C000B7152 /* TuHLSPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuHLSPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		437712F43061788C000B7152 /* TuHLSPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuHLSPlayerUITests.m; sourceTree = "<group>"; };
 		437712F63061788C000B7152 /* TuHLSPlayerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuHLSPlayerUITestsLaunchTests.m; sourceTree = "<group>"; };
+		43771303306C01FE000B7152 /* fileSequence5.ts */ = {isa = PBXFileReference; lastKnownFileType = file; path = fileSequence5.ts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		437712CD30617889000B7152 /* TuHLSPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				43771303306C01FE000B7152 /* fileSequence5.ts */,
 				437712CE30617889000B7152 /* AppDelegate.h */,
 				437712CF30617889000B7152 /* AppDelegate.m */,
 				437712D130617889000B7152 /* SceneDelegate.h */,
@@ -242,6 +245,7 @@
 				437712DE3061788C000B7152 /* LaunchScreen.storyboard in Resources */,
 				437712DB3061788C000B7152 /* Assets.xcassets in Resources */,
 				437712D930617889000B7152 /* Main.storyboard in Resources */,
+				43771304306C01FE000B7152 /* fileSequence5.ts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
